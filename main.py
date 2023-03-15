@@ -13,7 +13,7 @@ def parallel_processing(n, m, data):
         # print(i)
         for j in range(n):
             # print(j)
-            output.append((j, i))
+            output.append((j, zeros[j]))
             zeros[j] = zeros[j] + data[a]
             a = a + 1
             if a >= m:
